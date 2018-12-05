@@ -37,7 +37,8 @@ Computer vision application to classify yeast cells.
 
 
 
-
+<h2>Yeast vitality, lesser known</h2>
+<p>Vitality is a measure of how active a cell or group of cells are. There are two ways common ways this is achived. Firstly is performing a small scale fermentation with the yeast in question. The CO2 off gased is captured and measured. This takes about 24 hours to get results, but in that time the original yeast sample viability and vitality have dropped. The second solution is to use a stain that is not processed homogeniously. For this we use methylene blue again. Methylene blue works by being absorbed into all cells and staining them. Living, helathy cell will reduce the methylene blue to clear, while the dead cells stay blue.</p>
 <p>
 	<img src="lievito1.jpg" height="240">
 	<img src="lievito2.jpg" height="240">
