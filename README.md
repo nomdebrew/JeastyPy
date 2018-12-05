@@ -1,7 +1,7 @@
 # JeastyPy
 Computer vision application to classify yeast cells.
 <p>
-	<img src="20170218_120230.jpg" height="240">
+	<img src="20170218_120230.jpg" height="240" style="transfor: rotate(90deg);">
 	<img src="20170209_074020.jpg" height="240">
 </p>
 
