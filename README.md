@@ -18,19 +18,21 @@ Computer vision application to classify yeast cells.
 	<img src="tensorflow/test_images/alive278.jpg" height="240">
 </p>
 
+<h2>Yeast viability and what it is</h2>
+<p>Viability is the ratio of living cells to the total number of cells. This is usually done by a lab technician using a stain like methylene blue, a microscope, and a hemocytomet to count and classify the cells. Detailed instrucition can be found on <a href="https://www.whitelabs.com/beer/cell-counting-viability-testing">WhiteLabs website</a></p>
 
 <h2>Classification: Alive vs. Dead</h2>
 <h3>Alive Cells</h3>
 <p>
-	<img src="tensorflow/test_images/alive60.jpg" height="240">
-	<img src="tensorflow/test_images/alive278.jpg" height="240">
-	<img src="tensorflow/test_images/alive856.jpg" height="240">
+	<img src="tensorflow/test_images/alive60.jpg" height="120">
+	<img src="tensorflow/test_images/alive278.jpg" height="120">
+	<img src="tensorflow/test_images/alive856.jpg" height="120">
 </p>
 <h3>Dead Cells</h3>
 <p>
-	<img src="tensorflow/test_images/dead27.jpg" height="240">
-	<img src="tensorflow/test_images/dead62.jpg" height="240">
-	<img src="tensorflow/test_images/dead649.jpg" height="240">
+	<img src="tensorflow/test_images/dead27.jpg" height="120">
+	<img src="tensorflow/test_images/dead62.jpg" height="120">
+	<img src="tensorflow/test_images/dead649.jpg" height="120">
 </p>
 
 
