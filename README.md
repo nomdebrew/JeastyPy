@@ -1,8 +1,12 @@
 # JeastyPy
 Computer vision application to classify yeast cells.
+
+<h2>Yeast Problems</h2>
 <p>
 	<img src="20170218_120230.jpg" height="240" style="transfor: rotate(90deg);">
+	Too little: skunky beer, overly fruity beer, stalled fermentation
 	<img src="20170209_074020.jpg" height="240">
+	Too much: little flavor, blow off, volume loss
 </p>
 
 <p>
