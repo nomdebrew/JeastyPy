@@ -56,5 +56,6 @@ Then execute
 This will create txt files for each image in 
 <code>openlabeling/bbox_txt</code>
 
-<h3>Our Code</h3>
-
+<h3><a href="labels_to_files.ipynb">Our Code</a></h3>
+<p>This code retrieves the the text files from <code>openlabeling/bbox_txt</code> containg the all the bounding box information for each image. Each .txt file was brought into a pandas dataframe and all of the information was combined into a single dataframe. The images are then brought in as numpy arrays. OpenLabeling records the center of the bounding box, for this application the 40 pixels in each direction of the center was used. To acomplish this, smaller arrays were extracted containing single cells. At the same time the original image was a 2.25M pixels each consisting of 3 color chanels. The result was an 80x80 2D array consisting of only the blue color channel, which would be the one with the most differentiation from the other color channels given the cell stain is blue. The output was over 900 80x80 images of individual cells to be used in the next step.</p>
+<h3>TensorFlow</h3>
