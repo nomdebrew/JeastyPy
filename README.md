@@ -46,4 +46,14 @@
 
 <h2>How it works</h2>
 <p>While JeastyPy uses it own dataset, it leverages existing code to acomplish steps in the process.</p>
+<h3><a href="https://github.com/Cartucho/OpenLabeling">OpenLabeling</a></h3>
+<p>OpenLabeling was used to draw bounding boxes around each yeast cell and assigning a label at the same time.</p>
+<img src="images/bounding_box.png" height="240">
+<p>After reading the <a href="openlabeling/README.md">instructions</a>, place images in 
+		openlabeling/images.
+Then execute 
+		/openlabeling/run.py
+This will create txt files for each image in 
+		openlabeling/bbox_txt
+<h3>Our Code</h3>
 
