@@ -50,16 +50,11 @@
 <p>OpenLabeling was used to draw bounding boxes around each yeast cell and assigning a label at the same time.</p>
 <img src="images/bounding_box.png" height="240">
 <p>After reading the <a href="openlabeling/README.md">instructions</a>, place images in 
-```
-		openlabeling/images.
-```
+<code>openlabeling/images</code>
 Then execute 
-```
-		/openlabeling/run.py
-```
+<code>/openlabeling/run.py</code>
 This will create txt files for each image in 
-```
-		openlabeling/bbox_txt
-```
+<code>openlabeling/bbox_txt</code>
+
 <h3>Our Code</h3>
 
