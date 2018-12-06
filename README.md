@@ -1,4 +1,4 @@
-#JeastyPy: Computer vision application to classify yeast cells.</h1>
+<h1>JeastyPy: Computer vision application to classify yeast cells.</h1>
 <h2>What is JeastyPy</h2>
 <h3>Yeast Problems</h3>
 <p>
@@ -59,5 +59,15 @@ This will create txt files for each image in
 
 <h3>TensorFlow</h3>
 Copy the images into <code>/tensorflow/training_images</code> and <code>tensorflow/test_images</code>. Once in place run <code>/tensorflow/retrain.py</code> to create and train the nerural network. Next run <code>/tensorflow/test.py</code> to check against the test images that have been seperated. The accurarcy should be around 85-87%
-<img src="tensorflow/test_images/output.png" height="120">
+<img src="images/output.png" height="120">
+
+
+<h2>Conclution & Future Work</h2>
+The model correctly recognizes alive and dead cells 87% of the time. Interestingly it has the potential to be even better at calculating vitality.
+<ul>
+<li>Collect more data</li>
+<li>Automate creating bounding boxes on original images</li>
+<li>Get more experts to classify the individual cells</li>
+</ul>
+
 
